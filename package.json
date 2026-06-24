@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm install --prefix && run build --prefix frontend",
+    "start": "npm start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
